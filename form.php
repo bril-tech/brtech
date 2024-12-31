@@ -7,10 +7,8 @@
     
         //Load POST data from HTML form
     
-        $fname = $_POST["f-name"];
-        $lname = $_POST["l-name"];
+        $fname = $_POST["name"];
         $email = $_POST["email"];
-        $phone = $_POST["phone"];
         $subject = $_POST["subject"];
         $customer_msg	 = $_POST["message"];
     
@@ -19,10 +17,8 @@
             $email_subject = "Enquiry for SRS Power India";
             $headers .= "From:".$from_email."\r\n";
             $headers .= "Reply-To: ".$recipient_email."\r\n";
-            $body .= "First Name: " .$fname."\n";
-            $body .= "Last Name: " .$lname."\n";
-            $body .= "Email: " .$email."\n";
-            $body .= "Phone: " .$phone."\n"; 
+            $body .= "Name: " .$fname."\n";
+            $body .= "Email: " .$email."\n"; 
             $body .= "Subject: " .$subject."\n";  
             $body .= "Message: " .$customer_msg."\n";		
     
