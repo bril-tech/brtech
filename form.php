@@ -27,7 +27,7 @@
             //var_dump($sentMailResult);die;
     
             if($sentMailResult ){
-                header('Location: https://www.srspowerindia.com/');
+                header('Location: https://www.briltechgroup.com/');
             }
     
             else{
@@ -37,6 +37,6 @@
             }
     
         } else{
-            header('Location: https://www.srspowerindia.com/');
+            header('Location: https://www.briltechgroup.com/contact.html');
         }
     }
