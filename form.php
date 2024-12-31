@@ -7,17 +7,17 @@
     
         //Load POST data from HTML form
     
-        $fname = $_POST["name"];
+        $name = $_POST["name"];
         $email = $_POST["email"];
         $subject = $_POST["subject"];
         $customer_msg	 = $_POST["message"];
     
-        if(!empty($fname) && !empty($lname) && !empty($email) && !empty($phone) && !empty($subject) && !empty($customer_msg)) {
+        if(!empty($name) && !empty($email) && !empty($subject) && !empty($customer_msg)) {
     
             $email_subject = "Enquiry for SRS Power India";
             $headers .= "From:".$from_email."\r\n";
             $headers .= "Reply-To: ".$recipient_email."\r\n";
-            $body .= "Name: " .$fname."\n";
+            $body .= "Name: " .$name."\n";
             $body .= "Email: " .$email."\n"; 
             $body .= "Subject: " .$subject."\n";  
             $body .= "Message: " .$customer_msg."\n";		
