@@ -1,6 +1,6 @@
 <?php 
     if($_SERVER['REQUEST_METHOD']) {    
-// die("hello");
+die("hello");
         $from_email		 = 'keywordi@in-pun-ln-srv139.advancedserverdns.com';
         $recipient_email = 'prernaseo@keywordindia.com';
         
