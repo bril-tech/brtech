@@ -7,24 +7,24 @@ RewriteRule ^(.*)index.html$ https://www.briltechgroup.com/$1 [R=301,L]
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
-Redirect 301 /refrigerated-air-compressor-agra.html/ /refrigerated-air-dryer-agra.html
-Redirect 301 /refrigerated-air-compressor-aligarh.html/ /refrigerated-air-dryer-aligarh.html
-Redirect 301 /refrigerated-air-compressor-bareilly.html/ /refrigerated-air-dryer-bareilly.html
-Redirect 301 /refrigerated-air-compressor-bulandshahr.html/ /refrigerated-air-dryer-bulandshahr.html
-Redirect 301 /refrigerated-air-compressor-gajraula.html/ /refrigerated-air-dryer-gajraula.html
-Redirect 301 /refrigerated-air-compressor-ghaziabad.html/ /refrigerated-air-dryer-ghaziabad.html
-Redirect 301 /refrigerated-air-compressor-greater-noida.html/ /refrigerated-air-dryer-greater-noida.html
-Redirect 301 /refrigerated-air-compressor-hapur.html/ /refrigerated-air-dryer-hapur.html
-Redirect 301 /refrigerated-air-compressor-khurja.html/ /refrigerated-air-dryer-khurja.html
-Redirect 301 /refrigerated-air-compressor-kosi-kalan.html/ /refrigerated-air-dryer-kosi-kalan.html
-Redirect 301 /refrigerated-air-compressor-mathura.html/ /refrigerated-air-dryer-mathura.html
-Redirect 301 /refrigerated-air-compressor-meerut.html/ /refrigerated-air-dryer-meerut.html
-Redirect 301 /refrigerated-air-compressor-moradabad.html/ /refrigerated-air-dryer-moradabad.html
-Redirect 301 /refrigerated-air-compressor-muzaffarnagar.html/ /refrigerated-air-dryer-muzaffarnagar.html
-Redirect 301 /refrigerated-air-compressor-noida.html/ /refrigerated-air-dryer-noida.html
-Redirect 301 /refrigerated-air-compressor-rampur.html/ /refrigerated-air-dryer-rampur.html
-Redirect 301 /refrigerated-air-compressor-saharanpur.html/ /refrigerated-air-dryer-saharanpur.html
-Redirect 301 /refrigerated-air-compressor-sambhal.html/ /refrigerated-air-dryer-sambhal.html
+Redirect 301 /refrigerated-air-compressor-agra.html /refrigerated-air-dryer-agra.html
+Redirect 301 /refrigerated-air-compressor-aligarh.html /refrigerated-air-dryer-aligarh.html
+Redirect 301 /refrigerated-air-compressor-bareilly.html /refrigerated-air-dryer-bareilly.html
+Redirect 301 /refrigerated-air-compressor-bulandshahr.html /refrigerated-air-dryer-bulandshahr.html
+Redirect 301 /refrigerated-air-compressor-gajraula.html /refrigerated-air-dryer-gajraula.html
+Redirect 301 /refrigerated-air-compressor-ghaziabad.html /refrigerated-air-dryer-ghaziabad.html
+Redirect 301 /refrigerated-air-compressor-greater-noida.html /refrigerated-air-dryer-greater-noida.html
+Redirect 301 /refrigerated-air-compressor-hapur.html /refrigerated-air-dryer-hapur.html
+Redirect 301 /refrigerated-air-compressor-khurja.html /refrigerated-air-dryer-khurja.html
+Redirect 301 /refrigerated-air-compressor-kosi-kalan.html /refrigerated-air-dryer-kosi-kalan.html
+Redirect 301 /refrigerated-air-compressor-mathura.html /refrigerated-air-dryer-mathura.html
+Redirect 301 /refrigerated-air-compressor-meerut.html /refrigerated-air-dryer-meerut.html
+Redirect 301 /refrigerated-air-compressor-moradabad.html /refrigerated-air-dryer-moradabad.html
+Redirect 301 /refrigerated-air-compressor-muzaffarnagar.html /refrigerated-air-dryer-muzaffarnagar.html
+Redirect 301 /refrigerated-air-compressor-noida.html /refrigerated-air-dryer-noida.html
+Redirect 301 /refrigerated-air-compressor-rampur.html /refrigerated-air-dryer-rampur.html
+Redirect 301 /refrigerated-air-compressor-saharanpur.html /refrigerated-air-dryer-saharanpur.html
+Redirect 301 /refrigerated-air-compressor-sambhal.html /refrigerated-air-dryer-sambhal.html
 </IfModule>
 
 ErrorDocument 404 https://www.briltechgroup.com
