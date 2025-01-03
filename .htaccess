@@ -7,7 +7,9 @@ RewriteRule ^(.*)index.html$ https://www.briltechgroup.com/$1 [R=301,L]
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
-Redirect 301 /refrigerated-air-compressor-agra.html /refrigerated-air-dryer-agra.html
+
+Redirect /refrigerated-air-compressor-agra.html /refrigerated-air-dryer-agra.html
+
 Redirect 301 /refrigerated-air-compressor-aligarh.html /refrigerated-air-dryer-aligarh.html
 Redirect 301 /refrigerated-air-compressor-bareilly.html /refrigerated-air-dryer-bareilly.html
 Redirect 301 /refrigerated-air-compressor-bulandshahr.html /refrigerated-air-dryer-bulandshahr.html
