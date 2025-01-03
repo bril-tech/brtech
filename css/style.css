@@ -662,17 +662,7 @@ marquee a:hover{
     margin-bottom: 10px;
   }
 
-  .ff-form .ff-warned::before {
-    content: "";
-    width: 101%;
-    height: 104%;
-    top: -1px;
-    left: -1px;
-    position: absolute;
-    background-color: #fff;
-    border: 2px solid #fff;
-  }
-  .ff-form .ff-blocked::before {
+  ..ff-form .ff-powered-img::before {
     content: "";
     width: 101%;
     height: 104%;
