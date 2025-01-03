@@ -621,41 +621,29 @@ marquee a:hover{
     text-decoration: none;
 }
 
+#ff-compose {
+    padding: 0 !important;
 
 .ff-form .ff-item {
-
-    margin: 0;
-  
-    padding-top: 0;
-  
-    padding-block: 0px !important;
-  
+    margin: 0;  
+    padding-top: 0;  
+    padding-block: 0px !important;  
   }
   
-  .ff-layout-2column {
-  
-    max-width: 740px;
-  
-    padding: 0px !important;
-  
+  .ff-layout-2column {  
+    max-width: 740px;  
+    padding: 0px !important;  
   }
   
   
   
-  .top-form-heading input {
-  
-    width: 100%;
-  
-    padding: 0px !important;
-  
-    margin-bottom: -29px;
-  
-    border-radius: 0px;
-  
-    border: 0px;
-  
-    border-radius: 10px;
-  
+  .top-form-heading input {  
+    width: 100%;  
+    padding: 0px !important;  
+    margin-bottom: -29px;  
+    border-radius: 0px;  
+    border: 0px;  
+    border-radius: 10px;  
   }
 
   
